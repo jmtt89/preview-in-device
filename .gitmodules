@@ -1,0 +1,3 @@
+[submodule "sites/demoCN"]
+	path = sites/demoCN
+	url = git@github.com:jmtt89/demoCN.git

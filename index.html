@@ -13,19 +13,16 @@
       html {
           background: #F5F5F5;
       }
-
       body {
           margin: 0;
           background: #F5F5F5;
           background: linear-gradient(#CCCCD3,#F5F5F5);
       }
-
       a,
       a:link,
       a:visited {
           color: #AAA;
       }
-
       .DevicePreviewPanel {
           background: #000;
           color: white;
@@ -36,7 +33,6 @@
           font-size: 14px;
           white-space: nowrap;
       }
-
       .LeftOptionsPanel {   
           background: rgba(0,0,0,0.8);
           width: 100px;
@@ -54,34 +50,27 @@
           -ms-transition: height 0.3s ease;          
           transition: height 0.3s ease;
       }
-
       .OptionSection {
           border-top: 1px solid #AAA;
           padding: 20px 10px;
           margin: 0px 10px;
       }
-
       .OptionSection.NoBorder {
           border: none;   
       }
-
       .DevicePreviewPanel .Title {
           font-size: 24px; 
       }
-
       .OptionSection.LargeIcons [class^=fa] {
           font-size: 26px; 
           line-height: 30px;
       }
-
       .OptionSection.ExtraLargeIcons [class^=fa] {
           font-size: 34px; 
       }
-
       .Option {
           position: relative;    
       }
-
       .Option:hover:after,
       .Option.Selected:after {
           content: ""; 
@@ -94,63 +83,50 @@
           border-bottom: 8px solid transparent;    
           border-left: 12px solid rgba(255,255,255,0.1);
       }
-
       .OptionSection .Option.Outdoors [class^=fa] {
           color: #9DC3E5;   
       }
-
       .OptionSection .Option.Office [class^=fa] {
           color: #C9C9C9;   
       }
-
       .OptionSection .Option.Indoors [class^=fa] {
           color: #CC912A;   
       }
-
       .OptionSection .Option.BlackDevice [class^=fa] {
           color: #666;   
           font-weight: bold;
           fobnt-size: 29px;    
       }
-
       .OptionSection .Option.WhiteDevice [class^=fa] {
           color: #FFFFF0;   
           font-weight: bold;
           font-size: 29px;
       }
-
       .OptionSection .Option:hover,
       .OptionSection .Option.SelectedOption,{
           
       }
-
       .DevicePreviewPanel [class^=fa] {   
           margin: 0px 8px;
           vertical-align: middle;
           color: #AAA;
       }
-
       .DevicePreviewPanel > div {
           vertical-align: middle;   
       }
-
       .DevicePreviewPanel .fa-fw {
           width: auto;   
       }
-
       .DevicePreviewPanel .TopSideActions {
           padding-right: 40px;   
       }
-
       .DevicePreviewPanel .TopSideActions [class^=fa] {
           font-size: 16px;
           margin-right: 0px;
       }
-
       .DevicePreviewPanel .Active [class^=fa] {
           color: white;   
       }
-
       .DevicePreviewPanel .Rotate {
           transform: -webkit-rotate(90deg);
           -webkit-transform: rotate(90deg);
@@ -159,11 +135,9 @@
           filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
           display: inline-block;
       }
-
       body.Desktop .PreviewFrameWrapper .PreviewFrame {
           box-shadow: none;
       }
-
       .PreviewFrame {
           border: 60px solid #111;
           border-radius: 20px;
@@ -172,60 +146,50 @@
           background: #222;
           min-height: 100%;
       }
-
       .PreviewFrame.White {
           border-color: #FFFFF0;   
       }
-
       .PreviewFrame iframe {
           border-top: 2px solid #333;
           border-right: 2px solid #333;
           border-bottom: 2px solid #222;
           border-left: 2px solid #222;   
       }
-
       .PreviewFrame.White iframe {
           border-top: 1px solid #DDD;
           border-right: 1px solid #DDD;
           border-bottom: 1px solid #CCC;
           border-left: 1px solid #CCC;  
       }
-
       .PreviewFrame iframe {
           visibility: hidden;  /* display is set by the javascript, on ready event (avoid glimpse view of the scrollbar) */ 
           width: 100%;
           height: 100%;
       }
-
       body.Desktop .PreviewFrame {
           border: none;
           width: 100%;
           height: 100%;
           margin: 0px;
       }
-
       body.Desktop .PreviewFrame iframe {
           border: none;
       }
-
       body.Laptop .PreviewFrame {
           width: 1366px;
           height: 768px;
           border-bottom-width: 80px;
       }
-
       body.Tablet .PreviewFrame {
           width: 768px;
           height: 1024px;
           border-bottom-width: 80px;
       }
-
       body.TabletLandscape .PreviewFrame {
           height: 768px;
           width: 1024px;
           border-left-width: 80px;
       }
-
       body.Smartphone .PreviewFrame {
           width: 320px;
           height: 568px;
@@ -233,7 +197,6 @@
           border-top-width: 60px;
           border-bottom-width: 60px;
       }
-
       body.SmartphoneLandscape .PreviewFrame {
           width: 568px;
           height: 320px;
@@ -242,7 +205,6 @@
           border-right-width: 60px;
           margin-top: 200px;
       }
-
       .PreviewFooter {
           text-align: center;
           padding: 10px;
@@ -252,22 +214,18 @@
           bottom: 0px;
           height: 46px;
           box-sizing: border-box;
-
           display:inline-block;    
       }
-
       .PreviewFooter.Expanded { 
           background: #000;
           background: rgba(0,0,0,0.93);
           box-shadow: 0px -1px 2px #000;
           width: 100%;
       }
-
       .PreviewFooter .ToolbarToggler {
           display: block;    
           font-size: 20px;
       }
-
       .PreviewFooter .ToolbarToggler a,
       .PreviewFooter .ToolbarToggler a:link,
       a.CloseToolbar,
@@ -275,52 +233,39 @@
           color: #888;
           text-shadow: 0px 0px 3px #000;
       }
-
       .PreviewFooter .ToolbarToggler a:hover,
       a.CloseToolbar :hover {
           color: #FFF;
       }
-
       .PreviewFooter.Expanded .ToolbarToggler {
           display: none; 
-
       }
-
       .PreviewFooter .Toolbar {
           display: none;  
-
       }
-
       .PreviewFooter.Expanded .Toolbar {
           display: block;    
       }
-
       .PreviewFooter [class^=fa] {   
           vertical-align: middle;
       }
-
       .PreviewFooter input.TextRight {
           text-align: right;
       }
-
       .CloseToolbar {
           position: absolute;
           left: 10px;
-
           top: 10px;
           font-size: 20px;
       }
-
       .glass {
           display: inline-block;
           position: relative; 
           margin: 50px 0px;
       }
-
       .glass .PreviewFrame {
           margin: 0px;  /* the margin is placed by the glass effect div */
       }
-
       .glass:after {
           content: " "; 
           display: block;
@@ -336,11 +281,9 @@
           border-radius: 25px;
           pointer-events:none;
       }
-
       html, body, form {
           min-height: 100%;
       }
-
       body.Desktop .PreviewFrameWrapper {
           left: 0px;
           top: 0px;
@@ -383,7 +326,70 @@
             </div>
         </div>
     </div>
+
+    <div>
+      <label>Primary Color</label>
+      <select id="primarySelector">
+        <option value="red">red</option>
+        <option value="pink">pink</option>
+        <option value="purple" selected>purple</option>
+        <option value="deep_purple">deep-purple</option>
+        <option value="indigo">indigo</option>
+        <option value="blue">blue</option>
+        <option value="light_blue">light-blue</option>
+        <option value="cyan">cyan</option>
+        <option value="teal">teal</option>
+        <option value="green">green</option>
+        <option value="light_green">light-green</option>
+        <option value="lime">lime</option>
+        <option value="yellow">yellow</option>
+        <option value="amber">amber</option>
+        <option value="orange">orange</option>
+        <option value="deep_orange">deep-orange</option>
+        <option value="brown">brown</option>
+        <option value="grey">grey</option>
+        <option value="blue_grey">blue-grey</option>
+      </select>
+
+      <label>Accent Color</label>
+      <select id="accentSelector">
+        <option value="red">red</option>
+        <option value="pink" selected>pink</option>
+        <option value="purple">purple</option>
+        <option value="deep_purple">deep-purple</option>
+        <option value="indigo">indigo</option>
+        <option value="blue">blue</option>
+        <option value="light_blue">light-blue</option>
+        <option value="cyan">cyan</option>
+        <option value="teal">teal</option>
+        <option value="green">green</option>
+        <option value="light_green">light-green</option>
+        <option value="lime">lime</option>
+        <option value="yellow">yellow</option>
+        <option value="amber">amber</option>
+        <option value="orange">orange</option>
+        <option value="deep_orange">deep-orange</option>
+        <option value="brown">brown</option>
+        <option value="grey">grey</option>
+        <option value="blue_grey">blue-grey</option>
+      </select>
+
+      <label>URL Card Image</label>
+      <input type="url" id="urlCardSelector">
+      <label>File Card Image</label>
+      <input type="file" id="fileCardSelector">
+
+      <label>URL Logo Image</label>
+      <input type="url" id="urlLogoSelector">
+      <label>File Logo Image</label>
+      <input type="file" id="fileLogoSelector">
+
+      <label>Channel Name</label>
+      <input type="text" id="titleSelector">
+    </div>
+
 <script type="text/javascript">
+
   $(document).ready(function(){
     var paramsArray = (window.location.search.substr(1) || '').split('&');
     window.params = {};
@@ -391,6 +397,12 @@
       var split = paramsArray[i].split('=');
       window.params[split[0].toLowerCase()] = split[1];
     }
+
+    var iframeWin = $('#contents_frame')[0].contentWindow;
+    var url = "./sites/demoCN/dist/channels.html";
+    $('#contents_frame').attr('src', url).load(function(){
+      document.getElementById('contents_frame').style.visibility = 'visible';
+    });
 
     var device = window.params.device || 'Smartphone';
     $('body').addClass(device);
@@ -402,16 +414,52 @@
         var newDevice = $(this).data('device');
         $('.LeftOptionsPanel a.' + newDevice).addClass('Active');
         $('body').removeClass(currentDevice).addClass(newDevice);
-      });      
+      });
     });
 
-    var url = window.params.url;
-    if (!url) {
-      window.location.search = '?URL=http://www.microsoft.com'
-    }
-    $('#contents_frame').attr('src', url).load(function(){
-      document.getElementById('contents_frame').style.visibility = 'visible';
+
+    $("#urlCardSelector").change(function(){
+      if(this.validity.valid){
+        iframeWin.postMessage({'url_card': $(this).val() }, "*");
+      }
     });
+
+    $("#fileCardSelector").change(function(){
+
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        iframeWin.postMessage({'b64_card': e.target.result}, "*");
+      };
+      // read the image file as a data URL.
+      reader.readAsDataURL(this.files[0]);
+
+    });
+
+    $('#urlLogoSelector').blur(function(){
+      iframeWin.postMessage({'url_logo': $(this).val() }, "*");
+    })
+
+    $('#fileLogoSelector').blur(function(){
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        iframeWin.postMessage({'b64_logo': e.target.result}, "*");
+      };
+      // read the image file as a data URL.
+      reader.readAsDataURL(this.files[0]);
+    })
+
+    $('#titleSelector').blur(function(){
+      iframeWin.postMessage({'title': $(this).val() }, "*");
+    })
+
+    $('#primarySelector').change(function() {
+      iframeWin.postMessage({'primary_color': $(this).val() }, "*");
+    });
+
+    $('#accentSelector').change(function() {
+      iframeWin.postMessage({'accent_color': $(this).val() }, "*");
+    });
+
   });
 </script>
 </body>
